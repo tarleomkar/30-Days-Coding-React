@@ -3,13 +3,15 @@ import React from 'react'
 // import B from './components_Context_API/B'
 // import C from './components_Context_API/C'
 import UseReducer from './UseReducer'
+import Student from './components_Context_API/student'
 
 function App() {
   <>
     {/* <A/> */}
     {/* <B/> */}
     {/* <C/> */}
-    <UseReducer/>
+    {/* <UseReducer/> */}
+    <Student name="Spongbob"></Student>
   </>
 }
 
